@@ -6,8 +6,8 @@ import LinkCard from './components/LinkCard';
 import Page2Text from './components/Page2Text';
 import Image from 'next/image';
 import hero2 from '../public/hero2.png';
-import DesktopCard from './components/DesktopCard';
-import DesktopLinkCard from './components/DesktopLinkCard';
+import DesktopCard from '../pages/components/DesktopCard';
+import DesktopLinkCard from '../pages/components/DesktopLinkCard';
 
 export default function Page2() {
   return (
