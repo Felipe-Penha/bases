@@ -5,11 +5,11 @@ const Page2Text = () => {
       <p className={`page2-p1`}>
         Ivan Ilich considera importante desmistificar o ideal de progresso e de
         consumo insaciável. Para simplificar a forma de vida, as instituições
-        proporcionaram melhor interação familiar, ele chamava de ‘’redes de
-        comunicação culturais’’, essas redes não seriam da escola (por não terem
+        proporcionaram melhor interação familiar, ele chamava de redes de
+        comunicação culturais, essas redes não seriam da escola (por não terem
         programas preestabelecidos nem constituírem a figura do professor).
-        Essas ‘’redes de comunicação culturais’’ proporcionaram apenas a troca
-        de experiência, com base na aprendizagem automotivada.
+        Essas redes de comunicação culturais proporcionaram apenas a troca de
+        experiência, com base na aprendizagem automotivada.
       </p>
       <p className={`page2-p2`}>
         llich pontua quatro diferentes abordagens que permitem o estudante a
