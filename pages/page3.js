@@ -6,8 +6,8 @@ import LinkCard from './components/LinkCard';
 import Page3Text from './components/Page3Text';
 import Image from 'next/image';
 import hero3 from '../public/hero3.png';
-import DesktopCard from './components/DesktopCard';
-import DesktopLinkCard from './components/DesktopLinkCard';
+import DesktopCard from '../pages/components/DesktopCard';
+import DesktopLinkCard from '../pages/components/DesktopLinkCard';
 
 export default function Page3() {
   return (
