@@ -1,0 +1,56 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@import 'NavBar.scss';
+@import 'Footer.scss';
+@import 'Card.scss';
+@import 'LinkCard.scss';
+@import 'Group.scss';
+@import 'Page1Text.scss';
+@import 'Page2Text.scss';
+@import 'Page3Text.scss';
+
+.hero1,
+.hero2,
+.hero3 {
+  height: 50vh;
+  position: relative;
+  top: -0.5rem;
+  z-index: -1;
+}
+
+.hero1 {
+  // background-image: url('../public/hero1.png');
+  // background-repeat: no-repeat;
+  // background-size: 200%;
+  // background-position: center 0;
+  overflow: hidden;
+}
+
+.img {
+  height: 100%;
+  object-fit: cover;
+  object-position: -8rem 0;
+}
+
+.hero2-img {
+  height: 100%;
+  object-fit: cover;
+  object-position: -6.5rem 0;
+}
+
+.cards {
+  width: 100%;
+  padding: 0 10vw;
+}

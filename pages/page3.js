@@ -1,14 +1,11 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
-import NavBar from '../pages/components/NavBar';
+import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import LinkCard from '../pages/components/LinkCard';
-import Group from '../pages/components/Group';
-import Page1Text from './components/Page1Text';
 import Card from './components/Card';
+import LinkCard from './components/LinkCard';
+import Page3Text from './components/Page3Text';
 
-export default function Home() {
+export default function Page3() {
   return (
     <div>
       <Head>
@@ -21,17 +18,15 @@ export default function Home() {
       <NavBar />
 
       <main>
-        <div className={`hero1`}>
-          <img className={`img`} src='hero1.png' />
+        <div className={`hero2`}>
+          <img className={`hero2-img`} src='hero2.png' />
         </div>
         <div className={`cards`}>
           <Card />
           <LinkCard />
         </div>
 
-        <Group />
-
-        <Page1Text />
+        <Page3Text />
       </main>
 
       <Footer />
