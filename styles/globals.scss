@@ -7,6 +7,16 @@ body {
   font-size: 1rem;
 }
 
+html,
+body {
+  opacity: 0;
+  animation-name: body-fade-in;
+  animation-duration: 0.5s;
+  animation-delay: 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -92,4 +102,22 @@ a {
 .cards {
   width: 100%;
   padding: 0 10vw;
+}
+
+@keyframes body-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
