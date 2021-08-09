@@ -35,7 +35,9 @@ const Page1Text = () => {
       </p>
 
       <div className={`side-card`}>
-        <Image className={`side-card-img`} src={anotherBrick} />
+        <div className={`side-card-img`}>
+          <Image src={anotherBrick} objectFit='contain' />
+        </div>
         <div className={`side-card-text`}>
           <div className={`side-card-signature`}>Pink Floyd</div>
           <div className={`side-card-description`}>
@@ -72,7 +74,9 @@ const Page1Text = () => {
         progresso, da competência e do consumo.
       </p>
       <div className={`side-card`}>
-        <Image className={`side-card-img`} src={ivan} />
+        <div className={`side-card-img`}>
+          <Image src={ivan} width={300} height={200} />
+        </div>
         <div className={`side-card-text`}>
           <div className={`side-card-signature`}>Ivan Illich</div>
           <div className={`side-card-description`}>
