@@ -22,11 +22,16 @@
   &-p1,
   &-p2,
   &-p3,
-  &-p4 {
+  &-p4,
+  &-p5 {
     font-size: 0.9rem;
 
     @media screen and (min-width: 768px) {
       font-size: 1rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 1.2rem;
     }
   }
 
