@@ -1,13 +1,13 @@
 import Head from 'next/head';
-import NavBar from '../pages/components/NavBar';
-import Footer from '../pages/components/Footer';
-import LinkCard from '../pages/components/LinkCard';
-import Group from '../pages/components/Group';
-import Card from '../pages/components/Card';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import Card from './components/Card';
+import LinkCard from './components/LinkCard';
+import Page2Text from './components/Page2Text';
+import Image from 'next/image';
+import hero2 from '../public/hero2.png';
 import DesktopCard from '../pages/components/DesktopCard';
 import DesktopLinkCard from '../pages/components/DesktopLinkCard';
-import Page2Text from './components/Page2Text';
-import hero2 from '../public/hero2.png';
 
 export default function Page2() {
   return (

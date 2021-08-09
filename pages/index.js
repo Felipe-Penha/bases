@@ -9,7 +9,7 @@ import Page1Text from './components/Page1Text';
 import Card from './components/Card';
 import hero1 from '../public/hero1.png';
 import DesktopCard from '../pages/components/DesktopCard';
-import DesktopLinkCard from '../pages/components/DesktopLinkCard';
+import DesktopLinkCard from './components/DesktopLinkCard';
 
 export default function Home() {
   return (
