@@ -16,7 +16,7 @@ export default function Home() {
         <title>IVAN ILLICH</title>
         <meta
           name='description'
-          content='Bases Sócio-Filosóficas da Educação - Concepções da Educação - Arthur, Natasha, Leonardo'
+          content='Bases Sócio-Filosóficas da Educação, Concepções da Educação, Arthur, Natasha, Leonardo'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link rel='icon' href='/if.svg' />
