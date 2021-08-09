@@ -48,7 +48,7 @@ const Page1Text = () => {
         Assim, a separação estabelecida entre competentes e incompetentes de
         certo forma infantiliza o homem, sempre dependendo de especialistas e
         incapaz de gerir sua própria vida já que estaria colocando tudo nas mãos
-        de "outros". Em um mundo marcado pelo controle das instituições, as
+        de outros. Em um mundo marcado pelo controle das instituições, as
         escolas escravizam mais que a família, por sua estrutura sistemática,
         hierarquia aos rituais das provas e o mito do diploma.
       </p>
