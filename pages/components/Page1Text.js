@@ -21,7 +21,7 @@ const Page1Text = () => {
 
           <p className={`quotation-text70`}>
             Foi fértil em críticas à escola e propostas para alterar o quadro
-            sombrio. Ivan Illich surge com a proposta de ''desescolarizar'' a
+            sombrio. Ivan Illich surge com a proposta de desescolarizar a
             sociedade.
           </p>
         </div>
@@ -45,7 +45,7 @@ const Page1Text = () => {
       </div>
 
       <p className={`page1-p1`}>
-        Assim, a separação estabelecida entre "competentes" e "incompetentes" de
+        Assim, a separação estabelecida entre competentes e incompetentes de
         certo forma infantiliza o homem, sempre dependendo de especialistas e
         incapaz de gerir sua própria vida já que estaria colocando tudo nas mãos
         de "outros". Em um mundo marcado pelo controle das instituições, as
@@ -57,10 +57,10 @@ const Page1Text = () => {
         <div className={`quotation-img`}></div>
 
         <p className={`quotation-text`}>
-          "A escola agrupa pessoas segundo a idade, fundamentando-se em três
+          A escola agrupa pessoas segundo a idade, fundamentando-se em três
           premissas consideradas inquestionáveis: o lugar das crianças é na
           escola; as crianças aprendem na escola; só se pode ensinar as crianças
-          na escola"
+          na escola
         </p>
       </div>
       <p className={`page1-p3`}>
