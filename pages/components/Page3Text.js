@@ -15,15 +15,15 @@ const Page3Text = () => {
         manipulativa, sendo assim dispensável.
       </p>
       <p className={`page3-p2`}>
-        Por meio das rede convivialidade (ou ‘’redes de comunicação culturais’’)
-        o que sugere uma sociedade glomeramente educativa, mas alguns reparos
+        Por meio das rede convivialidade (ou redes de comunicação culturais) o
+        que sugere uma sociedade glomeramente educativa, mas alguns reparos
         podem ser feitos.
       </p>
 
       <p className={`page3-p3`}>
         Alguns autores consideram a proposta de desescolarização idealista e sem
-        perspectiva política. A desescolarização é um slogan vazio e a
-        ‘’escola’’ sonhada por Illich é justamente uma ‘’escola sem sociedade’’.
+        perspectiva política. A desescolarização é um slogan vazio e a escola
+        sonhada por Illich é justamente uma escola sem sociedade.
       </p>
 
       <div className={`charge`}>
