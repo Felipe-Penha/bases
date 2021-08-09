@@ -1,29 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.card {
-  background-color: #fff;
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
-  padding: 1.6rem 0;
-  height: 40vh;
+@media screen and (max-width: 767px) {
+  .card {
+    background-color: #fff;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.6rem 0;
+    height: 40vh;
 
-  &-text {
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+    &-desktop {
+      display: none;
+    }
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+
+    &-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    &-description {
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+
+    &-signature {
+      text-align: right;
+    }
   }
+}
 
-  &-title {
-    font-size: 1.2rem;
-    font-weight: 600;
+@media screen and (min-width: 768px) {
+  .card {
+    display: none;
+
+    &-desktop {
+      background-color: #fff;
+      width: 100%;
+      font-family: 'Poppins', sans-serif;
+      padding: 1.6rem 0;
+      height: 20vh;
+      width: 17rem;
+      z-index: 30;
+      position: absolute;
+      top: 40%;
+      left: 10vw;
+      padding: 1rem 0.8rem;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 1.2rem;
+
+      &-text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+
+      &-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      &-description {
+        font-size: 0.9rem;
+        font-weight: 400;
+      }
+
+      &-signature {
+        text-align: right;
+      }
+    }
   }
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    display: none;
 
-  &-description {
-    font-size: 0.9rem;
-    font-weight: 400;
-  }
+    &-desktop {
+      background-color: #fff;
+      width: 100%;
+      font-family: 'Poppins', sans-serif;
+      padding: 1.6rem 0;
+      height: 15rem;
+      width: 20rem;
+      z-index: 30;
+      position: absolute;
+      top: 30%;
+      left: 10vw;
+      padding: 1rem 0.8rem;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 1.2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-  &-signature {
-    text-align: right;
+      &-text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+
+      &-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      &-description {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      &-signature {
+        text-align: right;
+        font-size: 1.2rem;
+      }
+    }
   }
 }

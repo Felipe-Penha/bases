@@ -6,6 +6,8 @@ import LinkCard from './components/LinkCard';
 import Page2Text from './components/Page2Text';
 import Image from 'next/image';
 import hero2 from '../public/hero2.png';
+import DesktopCard from './components/DesktopCard';
+import DesktopLinkCard from './components/DesktopLinkCard';
 
 export default function Page2() {
   return (
@@ -23,8 +25,15 @@ export default function Page2() {
       <NavBar />
 
       <main>
+        <DesktopLinkCard />
         <div className={`hero2`}>
-          <Image className={`hero2-img`} src={hero2} width={800} />
+          <DesktopCard />
+          <Image
+            className={`hero2-img`}
+            src={hero2}
+            objectFit='cover'
+            layout='fill'
+          />
         </div>
         <div className={`cards`}>
           <Card />

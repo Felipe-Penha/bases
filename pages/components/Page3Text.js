@@ -27,7 +27,7 @@ const Page3Text = () => {
       </p>
 
       <div className={`charge`}>
-        <Image className={`charge-img`} src={charge} />
+        <Image className={`charge-img`} src={charge} width={400} height={300} />
       </div>
 
       <p className={`page3-p4`}>

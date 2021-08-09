@@ -44,10 +44,49 @@ a {
   object-position: -8rem 0;
 }
 
+.img {
+  @media screen and (min-width: 768px) {
+    object-position: -15.5rem 0;
+  }
+
+  @media screen and (min-width: 1100px) {
+    object-position: -0 -0rem;
+  }
+}
+
 .hero2-img {
   height: 100%;
   object-fit: cover;
-  object-position: -6.5rem 0;
+  object-position: -7.5rem 0;
+
+  @media screen and (min-width: 1100px) {
+    object-position: 0rem -0rem;
+  }
+}
+
+.hero3-img {
+  height: 100%;
+  object-fit: cover;
+
+  @media screen and (min-width: 768px) {
+    object-position: -20.5rem 0;
+  }
+
+  @media screen and (min-width: 1100px) {
+    object-position: 0 -0rem;
+  }
+}
+
+.hero1,
+.hero2,
+.hero3 {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 2rem;
+    height: 65vh;
+  }
+  @media screen and (min-width: 1100px) {
+    height: 100vh;
+  }
 }
 
 .cards {

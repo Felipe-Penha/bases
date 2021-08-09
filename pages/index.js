@@ -8,6 +8,8 @@ import Group from '../pages/components/Group';
 import Page1Text from './components/Page1Text';
 import Card from './components/Card';
 import hero1 from '../public/hero1.png';
+import DesktopCard from './components/DesktopCard';
+import DesktopLinkCard from './components/DesktopLinkCard';
 
 export default function Home() {
   return (
@@ -25,8 +27,15 @@ export default function Home() {
       <NavBar />
 
       <main>
+        <DesktopLinkCard />
         <div className={`hero1`}>
-          <Image className={`img`} src={hero1} width={800} />
+          <DesktopCard />
+          <Image
+            className={`img`}
+            src={hero1}
+            objectFit='cover'
+            layout='fill'
+          />
         </div>
         <div className={`cards`}>
           <Card />

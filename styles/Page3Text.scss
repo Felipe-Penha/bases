@@ -13,6 +13,10 @@
 .page3 {
   &-title {
     font-size: 1.2rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 
   &-p1,
@@ -20,6 +24,10 @@
   &-p3,
   &-p4 {
     font-size: 0.9rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1rem;
+    }
   }
 
   &-list {
@@ -30,10 +38,19 @@
 
     li {
       font-size: 0.8rem;
+
+      @media screen and (min-width: 768px) {
+        font-size: 0.9rem;
+      }
     }
   }
 }
 
+.charge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .charge-img {
   width: 100vw;
   margin-left: -10vw;

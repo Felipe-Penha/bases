@@ -13,11 +13,19 @@
 .page2 {
   &-title {
     font-size: 1.2rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 
   &-p1,
   &-p2 {
     font-size: 0.9rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1rem;
+    }
   }
 
   &-list {
@@ -28,6 +36,11 @@
 
     li {
       font-size: 0.8rem;
+      font-weight: 300;
+
+      @media screen and (min-width: 768px) {
+        font-size: 0.9rem;
+      }
     }
   }
 }
