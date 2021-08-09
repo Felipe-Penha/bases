@@ -7,6 +7,7 @@ import LinkCard from '../pages/components/LinkCard';
 import Group from '../pages/components/Group';
 import Page1Text from './components/Page1Text';
 import Card from './components/Card';
+import hero1 from '../public/hero1.png';
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
 
       <main>
         <div className={`hero1`}>
-          <img className={`img`} src='hero1.png' />
+          <Image className={`img`} src={hero1} width={800} />
         </div>
         <div className={`cards`}>
           <Card />

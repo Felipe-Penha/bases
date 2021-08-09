@@ -1,3 +1,7 @@
+import Image from 'next/image';
+import ivan from '../../public/ivan.png';
+import anotherBrick from '../../public/anotherBrick.png';
+
 const Page1Text = () => {
   return (
     <div className={`text1-block`}>
@@ -31,7 +35,7 @@ const Page1Text = () => {
       </p>
 
       <div className={`side-card`}>
-        <img className={`side-card-img`} src='anotherBrick.png' />
+        <Image className={`side-card-img`} src={anotherBrick} />
         <div className={`side-card-text`}>
           <div className={`side-card-signature`}>Pink Floyd</div>
           <div className={`side-card-description`}>
@@ -68,7 +72,7 @@ const Page1Text = () => {
         progresso, da competência e do consumo.
       </p>
       <div className={`side-card`}>
-        <img className={`side-card-img`} src='ivan.png' />
+        <Image className={`side-card-img`} src={ivan} />
         <div className={`side-card-text`}>
           <div className={`side-card-signature`}>Ivan Illich</div>
           <div className={`side-card-description`}>

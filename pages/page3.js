@@ -4,6 +4,8 @@ import Footer from './components/Footer';
 import Card from './components/Card';
 import LinkCard from './components/LinkCard';
 import Page3Text from './components/Page3Text';
+import Image from 'next/image';
+import hero3 from '../public/hero3.png';
 
 export default function Page3() {
   return (
@@ -19,7 +21,7 @@ export default function Page3() {
 
       <main>
         <div className={`hero2`}>
-          <img className={`hero2-img`} src='hero2.png' />
+          <Image className={`hero2-img`} src={hero3} width={800} />
         </div>
         <div className={`cards`}>
           <Card />

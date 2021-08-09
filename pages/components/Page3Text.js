@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import charge from '../../public/charge.png';
+
 const Page3Text = () => {
   return (
     <div className={`text3-block`}>
@@ -24,7 +27,7 @@ const Page3Text = () => {
       </p>
 
       <div className={`charge`}>
-        <img className={`charge-img`} src='charge.png' />
+        <Image className={`charge-img`} src={charge} />
       </div>
 
       <p className={`page3-p4`}>
